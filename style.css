@@ -15,7 +15,7 @@ body{
     display: flex;
     padding: 0px 25px;
     margin-top: -7px;
-    background-color: rgba(26, 21, 11, 0.144);
+    background-color: rgba(55, 56, 58, 0.144);
     border-radius: 30px;
     flex-direction: column;
     justify-content: flex-start;
@@ -151,28 +151,65 @@ body{
     }
   }
 
- @media screen and (min-width: 1025px)  {
+@media only screen and (min-width: 600px){
+
+    #heading{
+        margin: 30px 0px 0px 0px;
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 26px;
+    }
+    #gif1{
+        height: 60px;
+        width: 60px;
+        background-color: rgba(24, 18, 7, 0.438);
+    }
+    #city{
+        font-size: 35px;
+    }
+    #state{
+        font-size: 27px;
+    }
+    #day_date{
+        font-size: 18px;
+    }
+    .h1{
+        font-size: 20px;
+    }
+    .container{
+        width: 70%;
+    }
+    #error{
+        font-size: 20px;
+        text-align: center;
+    }
+    #error1{
+        text-align: center;
+    }
+  }
+
+@media only screen and (min-width: 768px) {
     .container {
-        width: 60%;
+        width: 70%;
       }
       #heading{
-          font-size: 55px;
-          margin: 17px;
+          font-size: 32px;
+          margin: 20px 0px 0px 15px;
       }
       #gif1{
-          height: 80px;
-          width: 80px;
+          height: 70px;
+          width: 70px;
       }
       #city{
-          font-size: 50px;
+          font-size: 37px;
           margin: 10px;
       }
       #state{
-          font-size: 40px;
+          font-size: 30px;
           margin: 10px;
       }
       #day_date{
-          font-size: 25px;
+          font-size: 21px;
           margin: 10px;
       }
       #temp_icon{
@@ -180,16 +217,53 @@ body{
           margin: 15px;
       }
       #temperature{
-          font-size: 65px;
+          font-size: 55px;
       }
       #icon{
-          font-size: 30px;
+          font-size: 25px;
       }
       .h1{
-          font-size: 30px;
+          font-size: 22px;
       }
-      #humidity,#atmospress,#windspeed{
-          margin: 1px;
+}
+
+ @media screen and (min-width: 1200px)  {
+    .container {
+        width: 60%;
+      }
+      #heading{
+          font-size: 55px;
+          margin: 30px 0px 20px 0px;
+      }
+      #gif1{
+          height: 80px;
+          width: 80px;
+          background-color: rgba(26, 18, 18, 0.658);
+      }
+      #city{
+          font-size: 45px;
+          margin: 8px;
+      }
+      #state{
+          font-size: 37px;
+          margin: 8px;
+      }
+      #day_date{
+          font-size: 25px;
+          margin: 8px;
+      }
+      #temp_icon{
+          gap: 35px;
+          margin: 17px;
+      }
+      #temperature{
+          font-size: 58px;
+      }
+      #icon{
+          font-size: 26px;
+      }
+      .h1{
+          font-size: 27px;
       }
   }
 
