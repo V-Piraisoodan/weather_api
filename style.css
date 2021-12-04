@@ -271,10 +271,11 @@ body{
  @media screen and (min-width: 1200px)  {
     .container {
         width: 60%;
+        height: 100%;
       }
       #heading{
-          font-size: 55px;
-          margin: 30px 0px 20px 0px;
+          font-size: 43px;
+          margin: 18px 0px 5px 0px;
       }
       #gif1{
           height: 80px;
@@ -282,20 +283,20 @@ body{
           background-color: rgba(26, 18, 18, 0.658);
       }
       #city{
-          font-size: 45px;
-          margin: 8px;
+          font-size: 40px;
+          margin: 5px;
       }
       #state{
-          font-size: 37px;
-          margin: 8px;
+          font-size: 35px;
+          margin: 5px;
       }
       #day_date{
-          font-size: 25px;
-          margin: 8px;
+          font-size: 24px;
+          margin: 5px;
       }
       #temp_icon{
           gap: 35px;
-          margin: 17px;
+          margin: 15px;
       }
       #temperature{
           font-size: 58px;
@@ -304,7 +305,11 @@ body{
           font-size: 26px;
       }
       .h1{
-          font-size: 27px;
+          font-size: 24px;
+      }
+      #humidity,#atmospress,#windspeed{
+          margin: -4px;
+        
       }
   }
 
