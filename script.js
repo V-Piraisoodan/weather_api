@@ -42,7 +42,7 @@ async function getweather () {
         document.getElementById("icon").innerHTML=`Scattered clouds (day)`;
       }
       else if(icon=="03n"){
-        document.getElementById("error").innerHTML=`<img id="gif1" src="night_mist1.png">`;
+        document.getElementById("error").innerHTML=`<img id="gif1" src="gif/night_mist1.png">`;
         document.getElementById("icon").innerHTML=`Scattered clouds (night)`;
       }
       else if(icon=="04d"){

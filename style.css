@@ -188,9 +188,10 @@ body{
     }
   }
 
-@media only screen and (min-width: 768px) {
+  @media only screen and (min-width: 768px) {
     .container {
         width: 70%;
+        height: 100%;
       }
       #heading{
           font-size: 32px;
@@ -224,6 +225,46 @@ body{
       }
       .h1{
           font-size: 22px;
+      }
+}
+
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 70%;
+        height: 100%;
+      }
+      #heading{
+          font-size: 32px;
+          margin: 20px 0px 0px 15px;
+      }
+      #gif1{
+          height: 65px;
+          width: 65px;
+      }
+      #city{
+          font-size: 37px;
+          margin: 8px;
+      }
+      #state{
+          font-size: 29px;
+          margin: 8px;
+      }
+      #day_date{
+          font-size: 20px;
+          margin: 8px;
+      }
+      #temp_icon{
+          gap: 30px;
+          margin: 13px;
+      }
+      #temperature{
+          font-size: 50px;
+      }
+      #icon{
+          font-size: 23px;
+      }
+      .h1{
+          font-size: 21px;
       }
 }
 
