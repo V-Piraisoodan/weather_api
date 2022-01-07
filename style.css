@@ -35,6 +35,10 @@ body{
                  1px 1px black, -1px -1px black, 
                  -1px 1px black, 1px -1px black;
 }
+#based{
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* heading gif styling */
 #gif1{
     display: flex;
@@ -277,6 +281,9 @@ body{
           font-size: 43px;
           margin: 18px 0px 5px 0px;
       }
+      #based{
+          font-size: 20px;
+      }
       #gif1{
           height: 80px;
           width: 80px;
@@ -320,6 +327,9 @@ body{
     #heading{
         font-size: 100px;
         margin: 50px;
+    }
+    #based{
+        font-size: 25px;
     }
     #gif1{
         height: 200px;
