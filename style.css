@@ -6,7 +6,7 @@ body{
     height: 100%;
     justify-content: center;
     align-content: center;
-    background: url('pic12.jpg');
+    background: url('pic19.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -15,7 +15,7 @@ body{
     display: flex;
     padding: 0px 25px;
     margin-top: -7px;
-    background-color: rgba(55, 56, 58, 0.144);
+    background-color: rgba(244, 248, 202, 0.404);
     border-radius: 30px;
     flex-direction: column;
     justify-content: flex-start;
@@ -27,13 +27,11 @@ body{
 #heading{
     display: flex;
     margin: 20px;
-    font-size: 45px;
+    padding: 10px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
     align-items: center;
-    color: rgb(250, 62, 219);
-    text-shadow: 2px 0 black, -2px 0 black,
-                 0 2px black, 0 -2px black, 
-                 1px 1px black, -1px -1px black, 
-                 -1px 1px black, 1px -1px black;
+    color: rgb(37, 58, 173);
 }
 #based{
     margin: 5px;
@@ -43,8 +41,8 @@ body{
 #gif1{
     display: flex;
     padding: 5px;
-    border-radius: 40px;
-    background-color: rgba(19, 16, 15, 0.575);
+    border-radius: 25px;
+    border: 2px solid rgb(83, 125, 253);
     justify-content: center;
     height: 90px;
     width: 90px;
@@ -74,7 +72,7 @@ body{
 #city{
     font-size: 45px;
     margin: 10px;
-    color: rgb(21, 95, 6);
+    color: rgb(255, 0, 200);
     font-weight: bold;
 }
 #state{
@@ -116,6 +114,9 @@ body{
 }
 /* meadia query styling for mobile phone devices */
 @media only screen and (max-width: 600px) {
+    .container{
+        background-color: rgba(247, 252, 196, 0.589);
+    }
     #heading{
         margin: 30px 0px 0px 0px;
         display: flex;
@@ -125,7 +126,6 @@ body{
     #gif{
         height: 50px;
         width: 50px;
-        background-color: rgba(24, 18, 7, 0.438);
     }
     #icon{
         display: flex;
@@ -143,9 +143,6 @@ body{
     .h1{
         font-size: 16px;
     }
-    .container{
-        background-color: rgba(255, 0, 0, 0);
-    }
     #error{
         font-size: 20px;
         text-align: center;
@@ -156,7 +153,9 @@ body{
   }
 
 @media only screen and (min-width: 600px){
-
+    .container{
+        background-color: rgba(247, 252, 196, 0.589);
+    }
     #heading{
         margin: 30px 0px 0px 0px;
         display: flex;
@@ -166,7 +165,6 @@ body{
     #gif1{
         height: 60px;
         width: 60px;
-        background-color: rgba(24, 18, 7, 0.438);
     }
     #city{
         font-size: 35px;
@@ -180,9 +178,6 @@ body{
     .h1{
         font-size: 20px;
     }
-    .container{
-        width: 70%;
-    }
     #error{
         font-size: 20px;
         text-align: center;
@@ -192,7 +187,7 @@ body{
     }
   }
 
-  @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     .container {
         width: 70%;
         height: 100%;
@@ -272,22 +267,21 @@ body{
       }
 }
 
- @media screen and (min-width: 1200px)  {
+@media screen and (min-width: 1200px)  {
     .container {
         width: 60%;
         height: 100%;
       }
       #heading{
-          font-size: 43px;
+          font-size: 40px;
           margin: 18px 0px 5px 0px;
       }
       #based{
-          font-size: 20px;
+          font-size: 25px;
       }
       #gif1{
           height: 80px;
           width: 80px;
-          background-color: rgba(26, 18, 18, 0.658);
       }
       #city{
           font-size: 40px;
@@ -320,7 +314,7 @@ body{
       }
   }
 
-  @media screen and (min-width: 1900px) {
+@media screen and (min-width: 1900px) {
     .container {
       width: 70%;
     }

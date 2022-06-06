@@ -47,14 +47,10 @@ async function getweather () {
       }
       else if(icon=="04d"){
         document.getElementById("error").innerHTML=`<img id="gif1" src="gif/04n&d.png">`;
-        document.getElementById("gif1").style.backgroundColor = "#C1C1C1";
-        document.getElementById("gif1").style.border = "1px solid black";
         document.getElementById("icon").innerHTML=`Broken clouds (day)`;
       }
       else if(icon=="04n"){
         document.getElementById("error").innerHTML=`<img id="gif1" src="gif/04n&d.png">`;
-        document.getElementById("gif1").style.backgroundColor = "#C1C1C1";
-        document.getElementById("gif1").style.border = "1px solid black";
         document.getElementById("icon").innerHTML=`Broken clouds (night)`;
       }
       else if(icon=="09d"){
