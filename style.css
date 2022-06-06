@@ -121,7 +121,8 @@ body{
         margin: 30px 0px 0px 0px;
         display: flex;
         flex-direction: column-reverse;
-        font-size: 24px;
+        letter-spacing: 0px;
+        font-size: 26px;
     }
     #gif{
         height: 50px;
@@ -160,7 +161,8 @@ body{
         margin: 30px 0px 0px 0px;
         display: flex;
         flex-direction: column-reverse;
-        font-size: 24px;
+        letter-spacing: 0px;
+        font-size: 26px;
     }
     #gif1{
         height: 60px;
